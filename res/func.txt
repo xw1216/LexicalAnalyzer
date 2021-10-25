@@ -1,0 +1,21 @@
+#define MIN 0
+
+/* 
+1245
+*/
+
+// 123456
+
+int round(float num) {
+    float remain = num % 1;
+    if(remain > 0.5) {
+        remain = (int)remain + 1;
+    } else {
+        remain = (int)remian;
+    }
+    return remain;
+}
+
+float rand() {
+    return 3.1415926535;
+}

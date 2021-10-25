@@ -1,0 +1,29 @@
+#include "./func.txt"
+#define MAX 256
+
+// 123456
+
+/*
+123456
+*/
+
+int main() {
+    string myStr = "HelloWorld!";
+    bool isEven = true;
+    if(mystr[0] != "\0") {
+        int i = MIN;
+        while(true) {
+	i = i + 1;
+	if(mystr[i] == "\0") {
+	    break;
+	}
+	isEven = !isEven;
+        }
+    }
+
+    float randomFloat = rand();
+    switch(isEven) {
+        case true: return round(randomFloat); break;
+        case false: return MAX; break;
+    }
+};
